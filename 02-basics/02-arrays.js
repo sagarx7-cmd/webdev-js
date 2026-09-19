@@ -20,16 +20,26 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 
 // console.log(all_new_heros);
 
+//The following example will be used rarely
+
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity)
 console.log(real_another_array);
 
-
+//.isArray is used to check whether a given varibale is array or not
 
 console.log(Array.isArray("Hitesh"))
+
+// .from is used to convert it into array
+
 console.log(Array.from("Hitesh"))
+
+
+
 console.log(Array.from({name: "hitesh"})) // interesting
+
+// To convert multiple variables into array :
 
 let score1 = 100
 let score2 = 200
