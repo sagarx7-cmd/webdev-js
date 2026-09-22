@@ -64,3 +64,40 @@ users[1].email
 //Used to check wheteher a key is present in object or not (Can be used instead of loop)
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// De- structuring of objects
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor - this is correct as well but to make it shorter we can use the below method
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// API call in json format/structure:
+
+//JSON stands for Javascript object Notation
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+//API call in Array of objects format/structure
+
+//We can use json formatter site to understand this structure easily
+
+[
+    {},
+    {},
+    {}
+]
